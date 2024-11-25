@@ -72,12 +72,7 @@ const Header = () => {
                   {item}
                 </a>
               ))}
-              <button
-                className="bg-white text-purple-600 px-4 py-2 rounded-full hover:bg-purple-100 transition-all duration-150"
-                onClick={() => setIsOpen(false)}
-              >
-                Get Started
-              </button>
+            
             </nav>
           </div>
         )}
