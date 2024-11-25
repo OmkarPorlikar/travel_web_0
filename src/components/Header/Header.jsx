@@ -14,7 +14,7 @@ const Header = () => {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const navItems = ['locations', 'features', 'services' , 'itinerary' , 'testimonials'];
+  const navItems = ['Locations', 'Features', 'Services' , 'Itinerary' , 'Testimonials'];
 
   return (
     <header 
@@ -45,11 +45,7 @@ const Header = () => {
                 {item}
               </a>
             ))}
-            <button
-              className="bg-white text-purple-600 px-4 py-2 rounded-full hover:bg-purple-100 transition-all duration-150"
-            >
-              Get Started
-            </button>
+         
           </nav>
 
           {/* Mobile Menu Button */}
